@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patry\\Source\\Repos\\LashRoom\\src\\LashRoom.Api\\LashRoom.Api.csproj": {}
+    "C:\\Users\\patry\\source\\repos\\LashRoom\\src\\LashRoom.Api\\LashRoom.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patry\\Source\\Repos\\LashRoom\\src\\LashRoom.Api\\LashRoom.Api.csproj": {
+    "C:\\Users\\patry\\source\\repos\\LashRoom\\src\\LashRoom.Api\\LashRoom.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patry\\Source\\Repos\\LashRoom\\src\\LashRoom.Api\\LashRoom.Api.csproj",
+        "projectUniqueName": "C:\\Users\\patry\\source\\repos\\LashRoom\\src\\LashRoom.Api\\LashRoom.Api.csproj",
         "projectName": "LashRoom.Api",
-        "projectPath": "C:\\Users\\patry\\Source\\Repos\\LashRoom\\src\\LashRoom.Api\\LashRoom.Api.csproj",
+        "projectPath": "C:\\Users\\patry\\source\\repos\\LashRoom\\src\\LashRoom.Api\\LashRoom.Api.csproj",
         "packagesPath": "C:\\Users\\patry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patry\\Source\\Repos\\LashRoom\\src\\LashRoom.Api\\obj\\",
+        "outputPath": "C:\\Users\\patry\\source\\repos\\LashRoom\\src\\LashRoom.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
