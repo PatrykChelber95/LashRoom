@@ -1,8 +1,39 @@
 @url = http://localhost:5000
-
+@serviceId = 62a7aa3d-c7d0-43ba-b542-1a6c2823c117
 
 ###
 GET {{url}}
 
 ###
 GET {{url}}/weatherforecast
+
+###
+GET {{url}}/services
+
+###
+POST {{url}}/services
+Content-Type: application/json
+
+{
+    "name": "usluga1",
+    "Cost": 1,
+    "ExecutionTime": 30
+}
+
+###
+POST {{url}}/services
+Content-Type: application/json
+
+{
+    "name": "Rzęski 2-3D",
+    "Cost": 150,
+    "ExecutionTime": 135
+}
+
+###
+PUT {{url}}/services/{{serviceId}}
+Content-Type: application/json
+
+{
+    "cost": 160
+}

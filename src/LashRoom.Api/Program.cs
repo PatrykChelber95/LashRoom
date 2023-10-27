@@ -1,7 +1,14 @@
+using LashRoom.Application;
+using LashRoom.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllers();
+builder.Services
+    .AddApplication()
+    .AddInfrastructure(builder.Configuration)
+    .AddControllers();
 
 var app = builder.Build();
-app.MapControllers();
+
+app.UseInfrastructure();
 app.Run();
  
